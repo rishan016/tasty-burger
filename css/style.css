@@ -1,0 +1,233 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{font-family: 'Bebas Neue', cursive;
+font-size: 14px;
+line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Alfa Slab One', cursive;
+}
+a{text-decoration: none}
+a:hover{text-decoration: none}
+img{max-width: 100%;
+	height: auto;
+height: auto;}
+
+
+
+
+.header{
+	width: 100%;
+	padding: 40px 0px ;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.main-menu .logo {
+	margin: 15px 0px 0px ;
+
+}
+.main-menu .text-right{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	font-size: 14px;
+	font-weight: 700;
+	color: #3d2514;
+	margin: 0px 20px 2px 0px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 2px;
+margin: 0px 0px 0px 20px ;
+color: #3d2514;
+
+
+
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #bf2222;
+}
+.banner{
+	width: 100%;
+	padding: 40px 0px ;
+}
+.banner .inner-banner{
+	width: 100%;
+	margin: 120px 0px 0px;
+
+}
+.banner .inner-banner h5{
+	font-weight:300 ;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #3d2514;
+
+}
+.banner .inner-banner h5 span{
+
+	display: inline-block;
+	padding: 10px ;
+	border: 2px dashed #3d2514;
+	margin: 0px 0px 15px;
+
+
+
+}
+.banner .inner-banner h1{
+	font-size: 110px;
+		font-weight:700 ;
+	line-height: 1.2em;
+	color: #3d2514;
+		letter-spacing: 5px;
+	text-transform: uppercase;
+	text-shadow:  5px 4px #fee8bb ;
+}
+
+.banner .inner-banner h3 {
+font-size: 60px;
+		font-weight:700 ;
+	line-height: 1.2em;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #3d2514;
+	text-shadow:  5px 4px #fee8bb ;
+}
+
+
+.features {
+	width: 100%;
+	padding: 80px 0px ;
+}
+.features .card {
+	margin: 0px 0px 35px ;
+	border: 0px  ;
+
+} 
+.features .card h5 {
+	font-weight:300 ;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	line-height: 1.2em;
+	color: #fff;
+	margin: 20px 0px 0px ;
+} 
+.features .card h2 {
+		font-weight:400 ;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 34px;
+	line-height: 1.2em;
+	color: #fff;
+} 
+
+.choose{
+	width: 100%;
+	padding: 20px 0px 80px ;
+}
+.choose .title {
+	width: 100%;
+	padding: 0px 0px 40px;
+	text-align: center;
+
+}
+.choose .title h3{
+	
+	font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 1.2em;
+    color: #3d2514;
+    background: #ffc045;
+    display: inline-block;
+    padding: 10px ;
+    margin: 0px 0px 10px;
+
+
+
+
+}
+.choose .title h2{
+		font-weight:400 ;
+	letter-spacing: 1px;
+text-transform: uppercase;
+	font-size: 65px;
+	line-height: 1.2em;
+	color: #3d2514;
+} 
+	
+
+
+	
+
+
+
+.choose .title p{
+	font-weight:400 ;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #3d2514;
+} 
+
+.choose-inner{
+	width: 100%;
+	padding: 20px 30px;
+	text-align: center;
+}
+
+
+.choose-inner .img-fluid{
+	width: 100%;
+	margin: 0px 0px 10px ;
+	height: 245px;
+
+}
+.choose-inner p{
+	font-weight:400 ;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #3d2514;
+
+}
+.choose-inner .btn-danger{
+	padding:15px 40px ;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 300;
+border-radius: 0px;
+border: 1px solid #bf2222;
+color: #fff;
+background: #bf2222;
+margin: 15px 0px 0px;
+}
+.choose-inner .btn-danger:hover{
+border: 1px solid #bf2222;
+color: #bf2222;
+background: transparent;
+transition: 1s;
+}
+
+}
+.choose-inner h4{
+		font-weight:400 ;
+	letter-spacing: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 32px;
+	line-height: 1.2em;
+	color: #3d2514;
+text-transform: uppercase;
+
+}
